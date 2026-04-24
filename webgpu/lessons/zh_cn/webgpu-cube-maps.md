@@ -191,7 +191,7 @@ struct VSOutput {
   });
 ```
 
-在片段着色器中，我们需要使用 `texture_cube` 而不是 `texture_2d`，并且与 `texture_cube` 一起使用时，`textureSample` 接受一个 `vec3f` 方向，因此我们传递法线。由于法线是一个阶段间变量，会被插值，所以我们需要对其进行法线化。
+在片段着色器中，我们需要使用 `texture_cube` 而不是 `texture_2d`，并且与 `texture_cube` 一起使用时，`textureSample` 接受一个 `vec3f` 方向，因此我们传递法线。由于法线是一个阶段间变量，会被插值，所以我们需要对其进行归一化。
 
 ```wgsl
 @group(0) @binding(0) var<uniform> uni: Uniforms;
@@ -335,7 +335,7 @@ struct VSOutput {
 *            layout: pipeline.getBindGroupLayout(0),
 *            entries: [
 *              { binding: 0, resource: sampler },
--              { binding: 1, resource: texture.createView({baseMipLevel, mipLevelCount: 1}) },
+-              { binding: 1, resource: texture.createView({baseMipLevel-1, mipLevelCount: 1}) },
 +              {
 +                binding: 1,
 +                resource: texture.createView({
