@@ -124,7 +124,7 @@ function createFVertices() {
 
 次に、すべての行列演算を2Dから3Dに変更する必要があります。
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -180,7 +180,7 @@ function createFVertices() {
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -236,7 +236,7 @@ function createFVertices() {
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -294,7 +294,7 @@ function createFVertices() {
 
 XおよびY回転行列も作成できます。
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">

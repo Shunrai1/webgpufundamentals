@@ -133,7 +133,7 @@ Above we just added a ` 0,` to the end of each line
 
 Next we need to change all the matrix math from 2D to 3D
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -189,7 +189,7 @@ Next we need to change all the matrix math from 2D to 3D
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -245,7 +245,7 @@ Next we need to change all the matrix math from 2D to 3D
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -303,7 +303,7 @@ Next we need to change all the matrix math from 2D to 3D
 
 We can also make X and Y rotation matrices
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
