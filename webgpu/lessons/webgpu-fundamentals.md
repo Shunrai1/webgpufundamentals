@@ -229,9 +229,9 @@ then we need a `<script>` tag to hold our JavaScript:
 ```html
 <canvas></canvas>
 +<script type="module">
-
-... javascript goes here ...
-
++
++// ... javascript goes here ...
++
 +</script>
 ```
 
