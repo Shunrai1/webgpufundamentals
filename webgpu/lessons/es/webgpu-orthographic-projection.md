@@ -122,7 +122,7 @@ Arriba simplemente añadimos un ` 0,` al final de cada línea.
 
 A continuación, necesitamos cambiar todas las matemáticas de matrices de 2D a 3D.
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -178,7 +178,7 @@ A continuación, necesitamos cambiar todas las matemáticas de matrices de 2D a 
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -234,7 +234,7 @@ A continuación, necesitamos cambiar todas las matemáticas de matrices de 2D a 
   </div>
 </div>
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
@@ -292,7 +292,7 @@ A continuación, necesitamos cambiar todas las matemáticas de matrices de 2D a 
 
 También podemos crear matrices de rotación en X e Y.
 
-<div class="webgpu_center compare" style="align-items: end;">
+<div class="webgpu_center local-compare" style="align-items: end;">
   <div>
     <div class="glocal-center">
       <table class="glocal-center-content glocal-mat">
